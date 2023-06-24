@@ -1,0 +1,69 @@
+.header-background-image {
+    background-image: url('netflix.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 630px;
+    width: 100%;
+}
+
+.overlay {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.text-area {
+    margin-top: 200px;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.text-area2 {
+    color: #FFFFFF;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.text-area3 {
+    color: #FFFFFF;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.row {
+    margin-top: 25px;
+    margin-left: 400px;
+}
+
+.input-filed {
+    background-color: transparent;
+    line-height: 1.5rem;
+    padding: 1.5rem 1rem 0.5rem;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.input-filed:focus {
+    background-color: transparent;
+    color: #FFFFFF;
+    padding: 1.5rem 1rem 0.5rem;
+    border: 2px solid #FFFFFF;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.input-filed::placeholder {
+    color: white;
+}
+
+.btn:hover {
+    background-color: #8B0000;
+}
